@@ -96,7 +96,7 @@ const TicTacToe = () => {
   }, [tiles]);
 
   useEffect(() => {
-    if (gameState != GameState.inProgress) {
+    if (gameState !== GameState.inProgress) {
       gameOverSound.play();
     }
   }, [gameState]);

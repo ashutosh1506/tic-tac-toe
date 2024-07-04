@@ -15,9 +15,14 @@ body {
 
 h1 {
   text-align: center;
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .board {
+  border: 0.4em solid #0074a6;
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
